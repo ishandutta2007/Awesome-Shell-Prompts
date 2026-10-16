@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flatssquare&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Shell-Prompts/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Shell-Prompts?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Shell-Prompts/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Shell-Prompts?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Shell-Prompts/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Shell-Prompts/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -56,136 +56,136 @@ Market dynamics reveal **moderate fragmentation at the local developer workstati
 
 The following repositories represent the leading open-source shell prompt engines, frameworks, and themes across Bash, Zsh, Fish, PowerShell, and cross-shell architectures, sorted in descending order of GitHub stargazers:
 
-### 1. [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [![GitHub stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social&color=white)](https://github.com/ohmyzsh/ohmyzsh/stargazers)
+### 1. [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [![GitHub_Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social&color=white)](https://github.com/ohmyzsh/ohmyzsh/stargazers)
 - **Primary Shell:** Zsh 🐚
 - **License:** MIT 📄
 - **Description:** The undisputed titan of command-line customization. A community-driven framework for managing Zsh configurations bundled with 300+ plugins and 150+ themes. Provides instant out-of-the-box battery power for Git branch detection, auto-completions, and productivity aliases.
 - **Controlled Benchmark:** ~148ms cold-start latency when configured with 6 standard plugins (versus 45ms unconfigured baseline).
 - **Best Suited For:** Developers who want a full-featured, batteries-included Zsh environment with zero initial setup overhead.
 
-### 2. [Starship](https://github.com/starship/starship) [![GitHub stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers)
+### 2. [Starship](https://github.com/starship/starship) [![GitHub_Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers)
 - **Primary Shell:** Universal / Cross-Shell *(Bash, Zsh, Fish, PowerShell, Nushell, Ion, Elvish, Xonsh)* 🌐
 - **License:** ISC 📄
 - **Description:** The premier cross-shell prompt engine written in Rust. Compiles to a single standalone static binary with zero external runtime dependencies. Configured via a single unified `starship.toml` file that delivers the exact same prompt visual experience across macOS, Linux, and Windows.
 - **Controlled Benchmark:** Sub-10ms prompt rendering times; async execution ensures heavy git repositories never block keystroke response.
 - **Best Suited For:** Engineers working across multiple shells and platforms who demand blistering speed, comprehensive language version modules, and cloud provider context.
 
-### 3. [Powerlevel10k](https://github.com/romkatv/powerlevel10k) [![GitHub stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=social&color=white)](https://github.com/romkatv/powerlevel10k/stargazers)
+### 3. [Powerlevel10k](https://github.com/romkatv/powerlevel10k) [![GitHub_Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=social&color=white)](https://github.com/romkatv/powerlevel10k/stargazers)
 - **Primary Shell:** Zsh 🐚
 - **License:** MIT 📄
 - **Description:** The pinnacle of Zsh performance engineering. Famous for its revolutionary **Instant Prompt** technology, which displays an interactive, fully rendered prompt before Zsh has even completed loading plugins or sourcing scripts. Features an interactive guided setup wizard (`p10k configure`).
 - **Controlled Benchmark:** Measured at ~25ms startup latency—demonstrating rendering speeds faster than an unconfigured Zsh baseline shell.
 - **Best Suited For:** Zsh enthusiasts who want rich glyphs, multi-line layouts, and extensive status segments without sacrificing a single millisecond of terminal responsiveness.
 
-### 4. [Fish Shell Prompt (Built-in)](https://github.com/fish-shell/fish-shell) [![GitHub stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers)
+### 4. [Fish Shell Prompt (Built-in)](https://github.com/fish-shell/fish-shell) [![GitHub_Stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers)
 - **Primary Shell:** Fish 🐟
 - **License:** GPL-2.0 📄
 - **Description:** Fish's native interactive prompt architecture defined cleanly via `fish_prompt` and `fish_right_prompt` functions. Includes native git status awareness via `__fish_git_prompt` with syntax highlighting and autosuggestions as first-class citizens.
 - **Best Suited For:** Developers using Fish who desire native, lightweight performance without installing external third-party prompt frameworks.
 
-### 5. [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) [![GitHub stars](https://img.shields.io/github/stars/JanDeDobbeleer/oh-my-posh?style=social&color=white)](https://github.com/JanDeDobbeleer/oh-my-posh/stargazers)
+### 5. [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) [![GitHub_Stars](https://img.shields.io/github/stars/JanDeDobbeleer/oh-my-posh?style=social&color=white)](https://github.com/JanDeDobbeleer/oh-my-posh/stargazers)
 - **Primary Shell:** Universal / Cross-Shell *(PowerShell, Bash, Zsh, Fish, Nushell, Cmd)* 🪟
 - **License:** MIT 📄
 - **Description:** A cross-platform prompt theme engine written in Go. The de-facto standard prompt manager on Windows and PowerShell, while also running seamlessly on Linux and macOS. Features a JSON/YAML/TOML configuration architecture and an extensive gallery of community themes.
 - **Best Suited For:** PowerShell power users, cross-platform engineers, and terminal artists seeking sophisticated segment transitions and deep cloud telemetry (AWS, Azure, GCP, Kubernetes).
 
-### 6. [Spaceship Prompt](https://github.com/spaceship-prompt/spaceship-prompt) [![GitHub stars](https://img.shields.io/github/stars/spaceship-prompt/spaceship-prompt?style=social&color=white)](https://github.com/spaceship-prompt/spaceship-prompt/stargazers)
+### 6. [Spaceship Prompt](https://github.com/spaceship-prompt/spaceship-prompt) [![GitHub_Stars](https://img.shields.io/github/stars/spaceship-prompt/spaceship-prompt?style=social&color=white)](https://github.com/spaceship-prompt/spaceship-prompt/stargazers)
 - **Primary Shell:** Zsh 🚀
 - **License:** MIT 📄
 - **Description:** A minimalistic, modular, and extremely customizable Zsh prompt. Built on an independent sections architecture that only displays relevant contextual information (Node.js, Rust, Docker, Kubernetes, Python, Git status) based on the current directory's manifest files.
 - **Best Suited For:** Full-stack developers wanting deep language runtime awareness with a clean visual aesthetic without leaving pure Zsh.
 
-### 7. [Bash-it](https://github.com/Bash-it/bash-it) [![GitHub stars](https://img.shields.io/github/stars/Bash-it/bash-it?style=social&color=white)](https://github.com/Bash-it/bash-it/stargazers)
+### 7. [Bash-it](https://github.com/Bash-it/bash-it) [![GitHub_Stars](https://img.shields.io/github/stars/Bash-it/bash-it?style=social&color=white)](https://github.com/Bash-it/bash-it/stargazers)
 - **Primary Shell:** Bash 🐚
 - **License:** MIT 📄
 - **Description:** The community-driven configuration framework for Bash. Provides a rich ecosystem of themes, aliases, completions, and plugins analogous to Oh My Zsh. Empowers default shell users on enterprise Linux systems without requiring administrative privileges to install alternate shells.
 - **Best Suited For:** Systems administrators and engineers working primarily on standard Bash servers who want prompt themes and autocomplete utilities.
 
-### 8. [Prezto](https://github.com/sorin-ionescu/prezto) [![GitHub stars](https://img.shields.io/github/stars/sorin-ionescu/prezto?style=social&color=white)](https://github.com/sorin-ionescu/prezto/stargazers)
+### 8. [Prezto](https://github.com/sorin-ionescu/prezto) [![GitHub_Stars](https://img.shields.io/github/stars/sorin-ionescu/prezto?style=social&color=white)](https://github.com/sorin-ionescu/prezto/stargazers)
 - **Primary Shell:** Zsh ⚡
 - **License:** MIT 📄
 - **Description:** The instigator of high-performance Zsh frameworks. Engineered as a faster, leaner alternative to Oh My Zsh, organizing functionality into well-structured modules (editor, history, syntax highlighting, and themes) with strict performance discipline.
 - **Best Suited For:** Developers seeking an organized, disciplined Zsh foundation with lower latency overhead than standard monolithic frameworks.
 
-### 9. [Pure](https://github.com/sindresorhus/pure) [![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pure?style=social&color=white)](https://github.com/sindresorhus/pure/stargazers)
+### 9. [Pure](https://github.com/sindresorhus/pure) [![GitHub_Stars](https://img.shields.io/github/stars/sindresorhus/pure?style=social&color=white)](https://github.com/sindresorhus/pure/stargazers)
 - **Primary Shell:** Zsh 🎨
 - **License:** MIT 📄
 - **Description:** The iconic minimalist Zsh prompt created by Sindre Sorhus. Strips away visual clutter, icons, and bulky powerline symbols in favor of clean single-line minimalism, asynchronous git checking, and execution time badges for commands exceeding 5 seconds.
 - **Best Suited For:** Minimalist developers who prize clean typography, unobtrusive layouts, and distraction-free terminal workspaces.
 
-### 10. [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) [![GitHub stars](https://img.shields.io/github/stars/oh-my-fish/oh-my-fish?style=social&color=white)](https://github.com/oh-my-fish/oh-my-fish/stargazers)
+### 10. [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) [![GitHub_Stars](https://img.shields.io/github/stars/oh-my-fish/oh-my-fish?style=social&color=white)](https://github.com/oh-my-fish/oh-my-fish/stargazers)
 - **Primary Shell:** Fish 🐟
 - **License:** MIT 📄
 - **Description:** The quintessential package manager and theme framework for the Fish shell. Provides an intuitive package CLI (`omf install <theme>`) for rapidly sampling, installing, and switching between dozens of community-crafted Fish prompts.
 - **Best Suited For:** Fish shell explorers who want one-command theme switching and curated plugin installation.
 
-### 11. [Antigen](https://github.com/zsh-users/antigen) [![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen?style=social&color=white)](https://github.com/zsh-users/antigen/stargazers)
+### 11. [Antigen](https://github.com/zsh-users/antigen) [![GitHub_Stars](https://img.shields.io/github/stars/zsh-users/antigen?style=social&color=white)](https://github.com/zsh-users/antigen/stargazers)
 - **Primary Shell:** Zsh 📦
 - **License:** MIT 📄
 - **Description:** A classic plugin manager for Zsh inspired by pathogen.vim. Enables developers to declare plugins, themes, and Oh My Zsh bundles directly within `.zshrc` using a clean `antigen bundle` declarative syntax.
 - **Best Suited For:** Zsh users wanting declarative plugin and prompt theme management with broad Oh My Zsh ecosystem compatibility.
 
-### 12. [Powerline-Shell](https://github.com/b-ryan/powerline-shell) [![GitHub stars](https://img.shields.io/github/stars/b-ryan/powerline-shell?style=social&color=white)](https://github.com/b-ryan/powerline-shell/stargazers)
+### 12. [Powerline-Shell](https://github.com/b-ryan/powerline-shell) [![GitHub_Stars](https://img.shields.io/github/stars/b-ryan/powerline-shell?style=social&color=white)](https://github.com/b-ryan/powerline-shell/stargazers)
 - **Primary Shell:** Universal *(Bash, Zsh, Fish, Tcsh)* 🐍
 - **License:** MIT 📄
 - **Description:** A Python-based prompt generator that renders classic Powerline segmented status bars across virtually any terminal. Displays current Git status, virtualenv name, exit codes, and background jobs with customizable segment order.
 - **Best Suited For:** Python developers wanting an easily scriptable, segment-driven prompt across standard Unix and Linux shells.
 
-### 13. [Zplug](https://github.com/zplug/zplug) [![GitHub stars](https://img.shields.io/github/stars/zplug/zplug?style=social&color=white)](https://github.com/zplug/zplug/stargazers)
+### 13. [Zplug](https://github.com/zplug/zplug) [![GitHub_Stars](https://img.shields.io/github/stars/zplug/zplug?style=social&color=white)](https://github.com/zplug/zplug/stargazers)
 - **Primary Shell:** Zsh ⚡
 - **License:** MIT 📄
 - **Description:** A next-generation Zsh plugin manager featuring parallel installation and updates, lazy-loading triggers, and GitHub release binary integration. Manages prompt themes alongside binaries and plugins seamlessly.
 - **Best Suited For:** Power users looking for parallelized dependency management and granular hook configuration for Zsh themes.
 
-### 14. [Zinit](https://github.com/zdharma-continuum/zinit) [![GitHub stars](https://img.shields.io/github/stars/zdharma-continuum/zinit?style=social&color=white)](https://github.com/zdharma-continuum/zinit/stargazers)
+### 14. [Zinit](https://github.com/zdharma-continuum/zinit) [![GitHub_Stars](https://img.shields.io/github/stars/zdharma-continuum/zinit?style=social&color=white)](https://github.com/zdharma-continuum/zinit/stargazers)
 - **Primary Shell:** Zsh ⚡
 - **License:** MIT 📄
 - **Description:** An ultra-fast, flexible Zsh plugin and prompt engine. Pioneered **Turbo Mode**, which defers plugin initialization until after the prompt renders, ensuring that heavy Zsh setups feel instant. Supports ice modifiers for granular control over compilation and snippet caching.
 - **Best Suited For:** Advanced Zsh power users who demand sub-40ms startup benchmarks even with dozens of active plugins.
 
-### 15. [Zimfw (Zim: Zsh IMproved)](https://github.com/zimfw/zimfw) [![GitHub stars](https://img.shields.io/github/stars/zimfw/zimfw?style=social&color=white)](https://github.com/zimfw/zimfw/stargazers)
+### 15. [Zimfw (Zim: Zsh IMproved)](https://github.com/zimfw/zimfw) [![GitHub_Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=social&color=white)](https://github.com/zimfw/zimfw/stargazers)
 - **Primary Shell:** Zsh 🚀
 - **License:** MIT 📄
 - **Description:** A high-speed, modular Zsh configuration framework. Employs byte-compilation of all sourced files and templates to dramatically shave milliseconds off terminal boot times. Bundles an array of prompt themes and autocomplete tools.
 - **Best Suited For:** Developers seeking the speed of a hand-rolled `.zshrc` with the convenience and safety of a curated module framework.
 
-### 16. [Liquid Prompt](https://github.com/nojhan/liquidprompt) [![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt?style=social&color=white)](https://github.com/nojhan/liquidprompt/stargazers)
+### 16. [Liquid Prompt](https://github.com/nojhan/liquidprompt) [![GitHub_Stars](https://img.shields.io/github/stars/nojhan/liquidprompt?style=social&color=white)](https://github.com/nojhan/liquidprompt/stargazers)
 - **Primary Shell:** Bash & Zsh 💧
 - **License:** AGPL-3.0 📄
 - **Description:** An adaptive, intelligent prompt designed for system administrators. Dynamically activates visual indicators only when actionable conditions arise (e.g. high CPU load, battery drain, uncommitted git files, detached screens, or failed jobs), keeping the line clean during routine operation.
 - **Best Suited For:** DevOps engineers, sysadmins, and site reliability engineers monitoring host hardware and cluster states in real time.
 
-### 17. [Tide](https://github.com/IlanCosman/tide) [![GitHub stars](https://img.shields.io/github/stars/IlanCosman/tide?style=social&color=white)](https://github.com/IlanCosman/tide/stargazers)
+### 17. [Tide](https://github.com/IlanCosman/tide) [![GitHub_Stars](https://img.shields.io/github/stars/IlanCosman/tide?style=social&color=white)](https://github.com/IlanCosman/tide/stargazers)
 - **Primary Shell:** Fish 🐟
 - **License:** MIT 📄
 - **Description:** The flagship modern prompt theme for Fish shell. Offers Powerlevel10k-like performance discipline, asynchronous background rendering, transient prompt support, and an interactive terminal configuration wizard (`tide configure`).
 - **Best Suited For:** Fish shell users who desire rich contextual segments, sub-millisecond responsiveness, and full Powerline/Nerd Font customization.
 
-### 18. [Agnoster Zsh Theme](https://github.com/agnoster/agnoster-zsh-theme) [![GitHub stars](https://img.shields.io/github/stars/agnoster/agnoster-zsh-theme?style=social&color=white)](https://github.com/agnoster/agnoster-zsh-theme/stargazers)
+### 18. [Agnoster Zsh Theme](https://github.com/agnoster/agnoster-zsh-theme) [![GitHub_Stars](https://img.shields.io/github/stars/agnoster/agnoster-zsh-theme?style=social&color=white)](https://github.com/agnoster/agnoster-zsh-theme/stargazers)
 - **Primary Shell:** Zsh 🎨
 - **License:** MIT 📄
 - **Description:** The legendary Powerline-style prompt theme that popularized segment-based terminal design. Features distinctive chevron dividers, user/host detection, colored git branch states, and elevated permission indicators.
 - **Best Suited For:** Developers who adore the classic Powerline chevron aesthetic and Solarized color palettes.
 
-### 19. [Powerline-Go](https://github.com/justjanne/powerline-go) [![GitHub stars](https://img.shields.io/github/stars/justjanne/powerline-go?style=social&color=white)](https://github.com/justjanne/powerline-go/stargazers)
+### 19. [Powerline-Go](https://github.com/justjanne/powerline-go) [![GitHub_Stars](https://img.shields.io/github/stars/justjanne/powerline-go?style=social&color=white)](https://github.com/justjanne/powerline-go/stargazers)
 - **Primary Shell:** Universal *(Bash, Zsh, Fish)* 🐹
 - **License:** GPL-3.0 📄
 - **Description:** A beautiful, lightning-fast Powerline-style prompt generator compiled in Go. Optimized for high rendering throughput with plugins for Git, Mercurial, Kubernetes contexts, Docker containers, and cloud credentials.
 - **Best Suited For:** Go enthusiasts wanting a compiled, single-binary prompt engine without external interpreter overhead.
 
-### 20. [Bullet Train Zsh](https://github.com/caiogondim/bullet-train.zsh) [![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train.zsh?style=social&color=white)](https://github.com/caiogondim/bullet-train.zsh/stargazers)
+### 20. [Bullet Train Zsh](https://github.com/caiogondim/bullet-train.zsh) [![GitHub_Stars](https://img.shields.io/github/stars/caiogondim/bullet-train.zsh?style=social&color=white)](https://github.com/caiogondim/bullet-train.zsh/stargazers)
 - **Primary Shell:** Zsh 🚄
 - **License:** MIT 📄
 - **Description:** A stylish prompt theme for Zsh inspired by Agnoster, featuring segment dividers shaped like high-speed train cars. Supports custom status codes, Node/Ruby/Python version markers, and background job notifications.
 - **Best Suited For:** Full-stack developers wanting high visual contrast and playful segment cues.
 
-### 21. [Znap (zsh-snap)](https://github.com/marlonrichert/zsh-snap) [![GitHub stars](https://img.shields.io/github/stars/marlonrichert/zsh-snap?style=social&color=white)](https://github.com/marlonrichert/zsh-snap/stargazers)
+### 21. [Znap (zsh-snap)](https://github.com/marlonrichert/zsh-snap) [![GitHub_Stars](https://img.shields.io/github/stars/marlonrichert/zsh-snap?style=social&color=white)](https://github.com/marlonrichert/zsh-snap/stargazers)
 - **Primary Shell:** Zsh ⚡
 - **License:** MIT 📄
 - **Description:** A rapid Zsh plugin manager and rapid boot engine written entirely in native Zsh. Automates Git cloning, asynchronous cache generation, and deferred loading to ensure prompt themes initialize instantly.
 - **Best Suited For:** Minimalist Zsh users wanting blisteringly fast startup times without external compilation pipelines.
 
-### 22. [Agkozak Zsh Prompt](https://github.com/agkozak/agkozak-zsh-prompt) [![GitHub stars](https://img.shields.io/github/stars/agkozak/agkozak-zsh-prompt?style=social&color=white)](https://github.com/agkozak/agkozak-zsh-prompt/stargazers)
+### 22. [Agkozak Zsh Prompt](https://github.com/agkozak/agkozak-zsh-prompt) [![GitHub_Stars](https://img.shields.io/github/stars/agkozak/agkozak-zsh-prompt?style=social&color=white)](https://github.com/agkozak/agkozak-zsh-prompt/stargazers)
 - **Primary Shell:** Zsh 🛡️
 - **License:** MIT 📄
 - **Description:** An asynchronous, lightweight Zsh prompt that renders instantly even on slow network file systems (NFS), giant monorepos, and remote SSH connections. Features customizable left and right prompts with zero external dependencies.
