@@ -1,6 +1,6 @@
 # Awesome-Shell-Prompts
 
-# Top Shell Prompts Ecosystem
+## Top Shell Prompts Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Instant Prompt Rendering, Cross-Shell Portability & Information Density*  
